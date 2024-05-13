@@ -1,0 +1,47 @@
+from turtle import *
+import random
+
+
+speed(15)
+pensize(3)
+left(40)
+forward(-100)
+for i in range(60):
+    r = random.random()
+    g = random.random()
+    b = random.random()
+    
+    color(r,g,b,)
+    forward(150)
+    right(290)
+
+for i in range(60):
+    r = random.random()
+    g = random.random()
+    b = random.random()
+    
+    color(r,g,b,)
+    forward(150)
+    right(185)
+
+for i in range(60):
+    r = random.random()
+    g = random.random()
+    b = random.random()
+    
+    color(r,g,b,)
+    forward(150)
+    right(652)
+    
+for i in range(44):
+    r = random.random()
+    g = random.random()
+    b = random.random()
+    
+    color(r,g,b,)
+    forward(150)
+    right(185)
+
+
+
+mainloop()
